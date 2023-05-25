@@ -147,6 +147,13 @@ class ItemListScreen extends StatelessWidget {
           );
         },
       ),
+      floatingActionButton: Container(
+        alignment: Alignment.bottomCenter,
+        child: FloatingActionButton(
+          onPressed: () {},
+          child: const Icon(Icons.add),
+        ),
+      ),
     );
   }
 }
